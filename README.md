@@ -1,1 +1,1 @@
-# www.scratch.sk
+# www.scratch1.sk
