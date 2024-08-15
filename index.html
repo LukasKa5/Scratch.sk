@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/general.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img class = "logo" src="./images/logo1.png" alt="logo"></img></a>
+            <div class="menu" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="indexpodstranka.html"> Pre Rodičov</a></li>
+                        <li><a href="indexpodstranka2.html">Pre Školy</a></li>
+                        <li><a href="indexpodstranka3.html">Scratch Príručka</a></li>
+                        <li><a href="indexpodstranka4.html">Scratch Kartičky</a></li>
+                        <li><a href="indexpodstranka5.html">Scratch Video</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="overlay-text">Výuka kreatívneho programovania
+            pre deti </div>
+
+        <div class="overlay">v programovacom jazyku Scratch</div>
+        </div>
+    </section>
+    <section class="features">
+            <article class="feature">
+
+                <div" class="content container">
+                    <h2>Scratch je ideálny nástroj ako deti naučiť digitálnej tvorivosti</h2>
+                    <p>Vďaka Scratchu si deti môžu jednoducho vytvárať vlastné animácie, príbehy a hry. Pri ich tvorbe sa naučia kreatívne myslieť a spolupracovať s ďalšími kamarátmi. Práve učenie prostredníctvom kreatívnej tvorby hier a interaktívnych animácií deti vtiahne do deja a budú skúšať nové prístupy a možnosti. </p>
+                    <p><a href="indexpodstranka.html" class = "odkazy1" target="_blank">Čítajte viac o projekte Scratch </a> alebo si prečítajte <a href="indexpodstranka2.html" class = "odkazy1" target="_blank"> Ako jednoducho začať so Scratchom.</a> </p>
+                </div>
+
+            </article>
+            <article class="feature container">
+                <div class="content container">
+                    <h2>Ako naučiť deti Scratch </h2>
+                    <p>Ak sa chcete venovať deťom a naučiť ich základom používania programu Scratch, radi vám pomôžeme so základnými postupmi a materiálmi. Viac informácii a inšpirácií ako sa môžete doma spolu s deťmi vydať do čarovného a zábavného sveta Scratch nájdete v sekciia <a href="indexpodstranka.html" class = "odkazy1" target="_blank"> pre Rodičov.</a></p>
+                    <p> Pre začiatok určite odporúčame zoznámiť sa so základnou príručkou <a href="indexpodstranka.html" class = "odkazy1" target="_blank"> Začíname so Scratchom </a> a zároveń si stiahnuť <a href="indexpodstranka3.html" class = "odkazy1" target="_blank"> kompletnú Príručku systému Scratch.</a></p>
+                </div>
+
+                <hr>
+                <div class="row">
+                    <div class="course-col">
+                        <a href="indexpodstranka3.html" class = "odkazy" target="_blank">
+                        <figure class="obrazok1">
+                            <img src="./images/starter-projects-illustration.png" class="obrazok1" alt="Scratch program">
+                        </figure>
+                        <h2>Scratch príručka a karty</h2> 
+                        </a>
+                        <p>Najrýchlejší spôsob ako sa naučiť prácu v Scratchi je hneď začať :-) Stiahnite si zdarma Scrach príručku alebo karty.
+                            Stiahnuť Scratch príručku zdarma</p>
+                    </div>
+
+                    <div class="course-col">
+                        <a href="indexpodstranka2.html" class = "odkazy" target="_blank">
+                        <figure class="obrazok1">
+                            <img src="./images/scratch skoly.png" class = "obrazok1" alt="Scratch program">
+                        </figure>
+                        <h2>Pre Školy </h2>
+                    </a> 
+                        <p>Učíte na základnej škole alebo plánujete realizovať krúžok programovania v Scratchi pre deti?
+                            Zistite čo ponúkame.</p>
+                    </div>
+
+                    <div class="course-col">
+                        <a href="indexpodstranka5.html" class = "odkazy" target="_blank">
+                        <figure class="obrazok1">
+                            <img src="./images/scratch videonavody.png" class = "obrazok1" alt="Scratch program">
+                        </figure>
+                        <h2>Video návody</h2>
+                        </a> 
+                        <p>Video návody sú jednoduchá, prehľadná a zábavná forma ako sa rýchlo naučiť pracovať so Scratchom. 
+                            Pozrite si video návody Scratch.  </p>
+                    </div>
+
+                </div>
+                
+
+            </article>
+
+        </section>
+        <section class="facebook">
+            <a href="https://www.facebook.com/scratch.sk/" class = "odkazy" target="_blank">
+                <figure class="obrazok2">
+                    <img src="./images/jednadva.png" class = "facebook-logo" alt="facebook logo" target="_blank">
+                </figure>
+                <h1>Pridajte sa k nám<br> na facebooku!</h1> 
+                </a>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navlinks");
+            function showMenu(){
+                navLinks.style.right = "0px";
+    
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+                
+            }
+        </script>
+        
+        <hr>
+        <section class = "footer">
+            <p>© 2017-2024 Scratch.sk | Scratch je projektom skupiny Lifelong Kindergarten Group na MIT Media Lab.  
+             Slovenskú verziu pripravili a finančne podporili: Iveta Aldana, Jozef Šovčík a Martin Kaniansky. Cookies</p> 
+         
+            </section>
+    
+
+</body>
+
+
