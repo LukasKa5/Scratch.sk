@@ -6,7 +6,7 @@
 .header {
     min-height: 500px;
     width: 100%;
-    background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(/images/menu12.png);
+    background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(menu12.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -54,7 +54,7 @@ menu{
     color: white;
     position: absolute;
     top:50%;
-    left: 43%;
+    left: 49%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 50px;
@@ -65,7 +65,7 @@ menu{
     color: white;
     position: absolute;
     top:60%;
-    left: 55%;
+    left: 60%;
     transform: translate(-50%, -50%);
     text-align: left;
     font-size: 30px;
