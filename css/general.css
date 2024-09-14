@@ -3,16 +3,17 @@
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header {
     min-height: 500px;
     width: 100%;
-    background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(menu12.png);
+    background-image:linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)), url(/menu12.png);
     background-position: center;
-    background-size: cover;
     position: relative;
 }
 
-nav{display: flex;
+nav{    
+    display: flex;
     padding:2% 6%;
     justify-content:space-between;
     align-items:center;
@@ -29,7 +30,8 @@ menu{
     margin: 20px;
 }
 
-.menu ul li{ list-style: none;
+.menu ul li{ 
+    list-style: none;
     display: inline-block;
     padding:8px 12px;
     position: relative;
@@ -39,11 +41,11 @@ menu{
 .menu ul li a{
     color:orange;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     transition:0.4s ease-in-out;
+    cursor: pointer;
 }
-
 
 .menu ul li a:hover{
     color: white;
@@ -54,7 +56,7 @@ menu{
     color: white;
     position: absolute;
     top:50%;
-    left: 49%;
+    left: 43%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 50px;
@@ -67,7 +69,6 @@ menu{
     top:60%;
     left: 60%;
     transform: translate(-50%, -50%);
-    text-align: left;
     font-size: 30px;
 }
 
@@ -85,10 +86,8 @@ nav .fa{
 .features{
     width: 80%;
     margin: auto;
-    text-align: left;
     padding-top: 30px;
 }
-
 p{
     padding:10px;
     line-height:22px;
@@ -98,6 +97,7 @@ h2{
     padding:10px;
     line-height:22px;
 }
+
 
 .row{
     margin-top:10px;
@@ -137,18 +137,16 @@ hr{
 .course-col:hover, .facebook:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
+
 .facebook{
     margin: 0px auto;
-    width: 65%;
+    width: 67%;
     background:orange;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
-    padding-top: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 0.5px;
+    padding: 30px 100px 0.5px 100px;
 }
 
 .facebook h1{
@@ -160,7 +158,7 @@ hr{
     width: 100px;
     height: 100px;
     margin-left: -60%;
-    margin-bottom: -11%;
+    margin-bottom: -10%;
 }
 
 .footer{
@@ -173,15 +171,19 @@ hr{
 
 .odkazy{
     color:white;
+    cursor: pointer;
    }
 .odkazy:hover{
     color:black;
+    cursor: pointer;
    }
 .odkazy1{
     color:orange;
+    cursor: pointer;
    }
 .odkazy1:hover{
     color:black;
+    cursor: pointer;
    }
 .mobilehr{
     visibility: hidden;
@@ -312,6 +314,7 @@ hr{
 
    hr {  width: 600px;
    }
+
    .footer{
     width:80%;
     padding: 10px;
