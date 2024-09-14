@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 .header {
     min-height: 500px;
     width: 100%;
