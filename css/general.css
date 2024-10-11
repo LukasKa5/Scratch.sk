@@ -11,7 +11,7 @@ html, body {
 .header {
     min-height: 500px;
     width: 100%;
-    background-image:linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)), url(/menu12.png);
+    background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)), url(/images/nech-lieta.png);
     background-position: center;
     position: relative;
 }
@@ -244,7 +244,7 @@ hr{
     .header {
         min-height: 300px;
         width: 100%;
-        background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(/images/menu12.png);
+        background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7));
         background-position: center;
         background-size: cover;
         position: relative;
@@ -329,7 +329,7 @@ hr{
     
 }  
 
-@media screen and (min-device-width: 400px) and (max-device-width: 700px)
+@media screen and (min-device-width: 450px) and (max-device-width: 700px)
     {
     .features{
             width: 85%;
@@ -473,7 +473,7 @@ hr{
     }
     
 }  
-@media (max-device-width: 400px)
+@media (max-device-width: 450px)
 {
     .features{
         width: 85%;
@@ -502,7 +502,7 @@ hr{
         margin-right: auto;
        }
     
-        .facebook h1{
+    .facebook h1{
             white-space: nowrap; 
             font-size: 24px;
             margin-left:0px;
@@ -513,7 +513,7 @@ hr{
             text-align: center;
             width: 50%;
         }
-        .facebook{
+    .facebook{
             width: 35%;
             background:orange;
             background-position: center;
@@ -528,32 +528,31 @@ hr{
     
         }
     
-        .header {
+    .header {
             min-height: 300px;
             width: 100%;
-            background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(/images/menu12.png);
+            background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(/images/menu12mobil.png);
             background-position: center;
             background-size: cover;
             position: relative;
         }
-        
-        .overlay-text{
+    .overlay-text{
             font-size: 30px;
             text-align: left;
             margin-right:20px;
-            margin-left: 35px;
+            margin-left: 11%;
     
         }
-        .overlay{
+    .overlay{
             font-size: 20px;
-            text-align: left 30px;
-            margin-left: 0px;
+            text-align: left;
             margin-top: 20px;
+            margin-left: -4%;
         }
-        .menu ul li{
+    .menu ul li{
             display: block;
         }
-        .menu{
+    .menu{
             position: absolute;
             background:orange;
             height: 100vh;
@@ -565,7 +564,7 @@ hr{
             transition: 1s;
         }
     
-        .menu ul li a{
+    .menu ul li a{
                 color:white;
                 text-decoration: none;
                 font-size: 20px;
@@ -573,29 +572,30 @@ hr{
                 transition:0.4s ease-in-out;
             }
                
-        .menu ul li a:hover{
+    .menu ul li a:hover{
                 color: black;
             }
-        nav .fa{
+    nav .fa{
             display: block;
             color:#fff;
             margin:15px;
             font-size: 30px;
             cursor: pointer;
-            margin-top: 20px;
-            margin-left:5px;
+            margin: 20;
+            margin-top: 30px;
+  
         }
-        .menu ul{
+    .menu ul{
             padding: 30px;
     
         }
     
-        .row{
+    .row{
             flex-direction: column;
         }
     
         
-        .facebook-logo{
+    .facebook-logo{
     
             width: 70px;
             height: 70px;
@@ -604,13 +604,13 @@ hr{
             margin-top: 0%;
         }
     
-        hr{
+    hr{
             visibility: hidden;
             margin-top: 0px;
             margin-bottom: 0px;
            
         }
-        .footer{
+    .footer{
             width:90%;
             padding: 10px;
             text-align: center;

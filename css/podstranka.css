@@ -3,6 +3,12 @@
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.marginh2{
+    margin-top: 50px;
+}
+.marginh21{
+    margin-top: 30px;
+}
 .contentcontainer h2{
     font-size: 35px;
     padding:10px;
@@ -376,7 +382,7 @@ hr{
     
 }  
 
-@media screen and (min-device-width: 400px) and (max-device-width: 700px)
+@media screen and (min-device-width: 450px) and (max-device-width: 700px)
     {
     .features{
             width: 90%;
@@ -519,8 +525,8 @@ hr{
     
 }  
 
-@media (max-device-width: 400px){
-    .features{
+@media (max-device-width: 450px){
+.features{
         width: 90%;
         margin: auto;
         text-align: left;
@@ -529,7 +535,7 @@ hr{
 .logo {
         width: 200px; 
         margin-top: 15px;
-        margin-right: 100px; 
+        margin-left: 3%; 
         display: block; 
     }
 
@@ -611,9 +617,8 @@ nav .fa{
     color:#fff;
     font-size: 30px;
     cursor: pointer;
-    margin-top: 20px;
-    margin: 15px;
-    margin-left: 5px;
+    margin: 20px;
+    margin-top: 30px;
 }
 .menu ul{
     padding: 30px;
