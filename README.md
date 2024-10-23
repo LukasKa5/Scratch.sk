@@ -1,1 +1,1 @@
-https://github.com/LukasKa5/www.scratch.sk.git
+Scratch Website - learn programming in Scratch in 3 languages and have fun while doing it!
