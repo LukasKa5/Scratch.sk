@@ -1,1 +1,1 @@
-https://github.com/LukasKa5/www.scratch.sk.git
+File:///C:/Users/Lukas%20Kaniansky/Desktop/Git/index.html
