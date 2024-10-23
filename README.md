@@ -1,1 +1,1 @@
-File:///C:/Users/Lukas%20Kaniansky/Desktop/Git/index.html
+Scratch Website - learn programming in Scratch in 3 languages and have fun while doing it!
