@@ -387,7 +387,7 @@ hr{
     .header {
         min-height: 300px;
         width: 100%;
-        background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(/images/menu12.png);
+        background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7));
         background-position: center;
         background-size: cover;
         position: relative;
@@ -531,7 +531,7 @@ hr{
     .header {
             min-height: 300px;
             width: 100%;
-            background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(/images/menu12mobil.png);
+            background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7));
             background-position: center;
             background-size: cover;
             position: relative;
@@ -581,7 +581,7 @@ hr{
                 font-size: 30px;
                 cursor: pointer;
                 margin-top: 20px;
-                margin-right: 40px;
+                margin-right: 30px;
             }
     .menu ul{
             padding: 30px;
