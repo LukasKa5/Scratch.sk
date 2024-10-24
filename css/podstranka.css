@@ -68,8 +68,8 @@ menu{
 
 .logo {
     width: 200px; 
-    margin-top: 0px;
-    margin-left: 80px; 
+    margin-top: -10px;
+    margin-left: 0px;
     display: block; 
 }
 
@@ -193,7 +193,7 @@ hr{
     width: 100px;
     height: 100px;
     margin-left: -60%;
-    margin-bottom: -11%;
+    margin-bottom: -9%;
 }
 
 .footer{
@@ -206,9 +206,8 @@ hr{
 
 .pictureindexpostranka{
     max-height: 500px;
-    position: center;
     max-width: 700px;
-    margin-left: 15%;
+    margin-left: 20%;
 }
 
 .odkazy{
@@ -253,6 +252,12 @@ hr{
         text-align: left;
         padding-top: 0px;
         margin-bottom: 0px;
+    }
+    .logo {
+        width: 200px; 
+        margin-top: 15px;
+        margin-left: 0px;
+        display: block; 
     }
     .course-col2{
         flex-basis:31%;
@@ -301,7 +306,7 @@ hr{
     .header {
         min-height: 100px;
         width: 100%;
-        background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(/images/menu12.png);
+        background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7));
         background-position: center;
         background-size: cover;
         position: relative;
@@ -396,7 +401,7 @@ hr{
     .logo {
             width: 200px; 
             margin-top: 15px;
-            margin-right: 100px; 
+            margin-left: 0px;
             display: block; 
         }
    
@@ -440,7 +445,7 @@ hr{
     .header {
         min-height: 100px;
         width: 100%;
-        background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(/images/menu12.png);
+        background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7));
         background-position: center;
         background-size: cover;
         position: relative;
@@ -582,7 +587,7 @@ margin-right: auto;
 .header {
     min-height: 100px;
     width: 100%;
-    background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(/images/menu12.png);
+    background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7));
     background-position: center;
     background-size: cover;
     position: relative;
