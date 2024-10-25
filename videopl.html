@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/podstranka.css">
+    <link rel=" shortcut icon" type="image/png" href="favicon-16x16.png">
+</head>
+
+<body>
+    <section class="header" style= "background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(./images/pozadiemale.png)">
+        <nav>
+            <a href="indexpl.html"><img class = "logo" src="./images/logo1.png" alt="logo"></img></a>
+            <div class="menu" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="indexpl.html">Strona główna</a></li>
+                        <li><a href="pre-rodicovpl.html"> Dla rodziców</a></li>
+                        <li><a href="pre-skolypl.html">Dla szkół</a></li>
+                        <li><a href="priruckapl.html">Podręcznik Scratch</a></li>
+                        <li><a href="kartickypl.html">Scratch karty</a></li>
+                        <li><a href="videopl.html">Scratch Video</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="features">
+            <article class="features">
+
+                <div class="contentcontainer">
+                    <h2>Samouczki wideo dotyczące programu Scratch</h2>
+                    <p>W Internecie można znaleźć wiele interesujących samouczków wideo dotyczących programowania w Scratchu w języku słowackim, ale można też znaleźć filmy w języku czeskim lub angielskim. Wybraliśmy filmy, które warto obejrzeć jako wprowadzenie, aby uzyskać podstawowe informacje na temat programowania w Scratchu.   </p>
+                    
+                    <a class="odkazy1" href="priruckapl.html" target="_blank">Polecamy również pobranie kompletnego samouczka Scratch w języku polskim za darmo. </a>
+                </div>
+                <hr>
+                <div class="contentcontainer">
+                    <h2>Samouczki wideo</h2>
+                </div>
+                <div>
+                        <ol>
+                            <li><a href="https://www.youtube.com/watch?v=IJw7xheBj8o" class = "odkazy2" target="_blank">Film wprowadzający do programu Scratch</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=tDeD7xlpzG0" class = "odkazy2" target="_blank">Praca z literami</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=imZ722B6jOA" class = "odkazy2" target="_blank">Animowanie za pomocą Scratch</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=Nwho3q4obZY" class = "odkazy2" target="_blank">Jak pracować ze zmiennymi w Scratch</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=qdXzsqgdea8" class = "odkazy2" target="_blank">Praktyczna demonstracja - mały program mnożenia</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=o0hJf_kiC5A" class = "odkazy2" target="_blank">Praktyczna demonstracja - Poskramiacz węży</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=r1sfz4Eh-ZM" class = "odkazy2" target="_blank">Praktyczna demonstracja - Strażnicy Wszechświata</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=devwtwcQaqU" class = "odkazy2" target="_blank">Praktyczna demonstracja - Marsjanie</a></li>
+                            <li><a href="https://youtu.be/9UzjUIvTcjc" class = "odkazy2" target="_blank">Praktyczna demonstracja - Ping pong</a></li>
+                            <li><a href="https://youtu.be/Zmlseb4JEDI" class = "odkazy2" target="_blank">Praktyczna demonstracja - Poszukiwacze</a></li>
+                        <ol>
+                </div>
+                <hr>
+
+            </article>
+            
+
+        </section>
+        <section class="facebook">
+            <a href="https://www.facebook.com/scratch.sk/" class = "odkazy"  target="_blank">
+                <figure class="obrazok1">
+                    <img src="./images/jednadvatri.png" class = "facebook-logo" alt="facebook logo"  target="_blank">
+                </figure>
+                <h1>Dołącz do nas<br> na facebooku!</h1> 
+                </a>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navlinks");
+            function showMenu(){
+                navLinks.style.right = "0px";
+    
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+                
+            }
+        </script>
+        
+        <hr>
+
+        <section class = "footer">
+            <p>© 2017-2024 Scratch.sk | Scratch je projektom skupiny Lifelong Kindergarten Group na MIT Media Lab.  
+             Slovenskú verziu pripravili a finančne podporili: Iveta Aldana, Jozef Šovčík a Martin Kaniansky. Cookies</p> 
+         
+            </section>
+    
+
+</body>
+
+

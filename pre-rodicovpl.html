@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/podstranka.css">
+    <link rel=" shortcut icon" type="image/png" href="favicon-16x16.png">
+</head>
+
+<body>
+    <section class="header" style= "background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(./images/pozadiemale.png)">
+        <nav>
+            <a href="indexpl.html"><img class = "logo" src="./images/logo1.png" alt="logo"></img></a>
+            <div class="menu" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="indexpl.html">Strona główna</a></li>
+                        <li><a href="pre-rodicovpl.html"> Dla rodziców</a></li>
+                        <li><a href="pre-skolypl.html">Dla szkół</a></li>
+                        <li><a href="priruckapl.html">Podręcznik Scratch</a></li>
+                        <li><a href="kartickypl.html">Scratch karty</a></li>
+                        <li><a href="videopl.html">Scratch Video</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="features">
+            <article class="features">
+
+                <div class="contentcontainer">
+                    <h2>Informacje dla rodziców na temat Scratch</h2>
+
+                    <p>Drodzy rodzice, poznajcie Scratcha. Scratch to wesoły kot, który przeniesie dzieci w świat fantazji, animacji i opowieści. I to w bardzo prostym i przyjaznym środowisku narzędzia programistycznego o tej samej nazwie. 
+
+                        Scratch został zaprojektowany tak, aby był łatwy w użyciu dla dzieci, nawet bez znajomości jakichkolwiek narzędzi programistycznych. Dzieci po prostu komponują bloki poleceń w postaci „kostek” poleceń, a każde wykonanie programu wykonuje następnie przygotowany zestaw instrukcji. 
+                        
+                        Dzieci szybko zrozumieją zasady działania tego narzędzia, a oprócz nauki korzystania z komputera w kreatywny sposób, poznają ważne strategie rozwiązywania problemów, projektowania projektów i wyrażania pomysłów.                      </p>
+                    <p>Dzięki Scratch dzieci mogą z łatwością tworzyć własne animacje, historie i gry. Nauczą się kreatywnego myślenia i współpracy z innymi przyjaciółmi przy ich tworzeniu. To właśnie nauka poprzez kreatywne tworzenie gier i interaktywnych animacji wciągnie dzieci do działania i wypróbowania nowych podejść i możliwości. </p>
+                    <p><b>Zobacz stronę</b> <a href="pre-rodicovpl.html" class = "odkazy1" target="_blank"> Jak rozpocząć pracę ze Scratch.</a></p>
+                </div>
+                <hr>
+                <img src = "./images/Scratch-kocur.png" class = pictureindexpostranka alt="scratch kocur"> 
+                <hr>
+            
+            <article class="featurecontainer">
+                <div class="contentcontainer">
+                    <h2>Jak uczyć dzieci języka Scratch</h2>
+                    <p>Istnieje wiele sposobów na nauczenie dzieci pracy ze Scratchem. Oczywiście można zapisać dzieci do klubu Scratch, a niektóre szkoły już rozpoczęły lekcje lub kluby w tym narzędziu programistycznym. Innym sposobem jest wspólna praca z dziećmi w domu i spędzenie czasu z dziećmi na ciekawej lekcji. 
+
+                        Aby rozpocząć, zalecamy zapoznanie się z łatwym do zrozumienia przewodnikiem Pierwsze kroki ze Scratch.                        
+                        Aby pomóc ci zacząć, przygotowaliśmy również zestaw początkowych kart Scratch, które pomogą ci opanować podstawy. Oczywiście później, gdy zagłębisz się w temat, możesz kontynuować naukę za pomocą samouczków wideo lub pobrać bezpłatny kompletny samouczek Scratch w formacie pdf.                         
+                        Życzymy wielu przyjemnych chwil spędzonych razem z dziećmi na rozwiązywaniu problemów i historyjek w Scratchu.                         
+                        Scratch można znaleźć pod adresem <a href="https://scratch.mit.edu/" class = "odkazy1" target="_blank"> https://scratch.mit.edu/ </a> </p>
+                </div>
+            </article>
+        </article>
+        </section>
+        <section class="facebook">
+            <a href="https://www.facebook.com/scratch.sk/" class = "odkazy" target="_blank">
+                <figure class="obrazok1">
+                    <img src="./images/jednadvatri.png" class = "facebook-logo" alt="facebook logo" target="_blank">
+                </figure>
+                <h1>Dołącz do nas<br> na facebooku!</h1> 
+                </a>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navlinks");
+            function showMenu(){
+                navLinks.style.right = "0px";
+    
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+                
+            }
+        </script>
+        
+        <hr>
+
+        <section class = "footer">
+            <p>© 2017-2024 Scratch.sk | Scratch je projektom skupiny Lifelong Kindergarten Group na MIT Media Lab.  
+             Slovenskú verziu pripravili a finančne podporili: Iveta Aldana, Jozef Šovčík a Martin Kaniansky. Cookies</p> 
+         
+            </section>
+    
+
+</body>
+
+

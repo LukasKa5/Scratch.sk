@@ -9,11 +9,13 @@ html, body {
 }
 
 .header {
-    min-height: 500px;
+    min-height: 450px;
     width: 100%;
-    background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7));
+    background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(./images/pozadievelke.png); 
     background-position: center;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav{ 
@@ -60,9 +62,8 @@ menu{
     color: white;
     position: absolute;
     top:50%;
-    left: 43%;
+    left: 55%;
     transform: translate(-50%, -50%);
-    text-align: center;
     font-size: 50px;
 }
 
@@ -71,11 +72,13 @@ menu{
     color: white;
     position: absolute;
     top:60%;
-    left: 60%;
+    left: 58%;
     transform: translate(-50%, -50%);
     font-size: 30px;
 }
-
+.overlay .overlay-text{
+    left: 60%;
+}
 .logo {
     width: 200px; 
     margin-top: 0px;
@@ -251,16 +254,16 @@ hr{
     }
     
     .overlay-text{
-        font-size: 35px;
+        font-size: 40px;
         text-align: left;
         margin-right:20px;
-        margin-left: 7%;
+        margin-left: 2%;
 
     }
     .overlay{
         font-size: 30px;
-        text-align: left 30px;
-        margin-left: -20px;
+        text-align: left;
+        margin-left: 4%;
         margin-top: 20px;
     }
     .menu ul li{
@@ -360,7 +363,7 @@ hr{
 
     .facebook h1{
         white-space: nowrap; 
-        font-size: 24px;
+        font-size: 34px;
         margin-left:0px;
         color: #fff;
         margin-bottom: 30px;
@@ -370,7 +373,8 @@ hr{
         width: 50%;
     }
     .facebook{
-        width: 35%;
+        flex-basis:31%;
+        width: 45%;
         background:orange;
         background-position: center;
         border-radius: 10px;
@@ -394,17 +398,17 @@ hr{
     }
     
     .overlay-text{
-        font-size: 30px;
+        font-size: 25px;
         text-align: left;
         margin-right:20px;
-        margin-left: 35px;
+        margin-left: -4%;
 
     }
     .overlay{
         font-size: 20px;
-        text-align: left 30px;
-        margin-left: 0px;
-        margin-top: 20px;
+        text-align: left;
+        margin-left: -2%;
+        margin-top: 10px;
     }
     .menu ul li{
         display: block;
@@ -537,17 +541,17 @@ hr{
             position: relative;
         }
     .overlay-text{
-            font-size: 30px;
+            font-size: 20px;
             text-align: left;
             margin-right:20px;
-            margin-left: 11%;
+            margin-left: -4%;
     
         }
     .overlay{
-            font-size: 20px;
+            font-size: 15px;
             text-align: left;
-            margin-top: 20px;
-            margin-left: -4%;
+            margin-top: 0px;
+            margin-left: -6%;
         }
     .menu ul li{
             display: block;

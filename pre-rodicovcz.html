@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/podstranka.css">
+    <link rel=" shortcut icon" type="image/png" href="favicon-16x16.png">
+</head>
+
+<body>
+    <section class="header" style= "background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(./images/pozadiemale.png)">
+        <nav>
+            <a href="indexcz.html"><img class = "logo" src="./images/logo1.png" alt="logo"></img></a>
+            <div class="menu" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="indexcz.html">Domů</a></li>
+                        <li><a href="pre-rodicovcz.html"> Pro rodiče</a></li>
+                        <li><a href="pre-skolycz.html">Pro školy</a></li>
+                        <li><a href="priruckacz.html">Příručka Scratch</a></li>
+                        <li><a href="kartickycz.html">Scratch kartičky</a></li>
+                        <li><a href="videocz.html">Scratch video</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="features">
+            <article class="features">
+
+                <div class="contentcontainer">
+                    <h2>Informace pro rodiče o aplikaci Scratch</h2>
+
+                    <p>Milí rodiče, seznamte se s Scratchem. Scratch je veselá kočka, která vaše děti přenese do světa fantazie, animace a příběhů. A to ve velmi jednoduchém a přátelském prostředí stejnojmenného programovacího nástroje. 
+
+                        Scratch byl navržen tak, aby ho děti mohly snadno používat i bez znalosti programovacích nástrojů. Děti jednoduše skládají bloky příkazů v podobě příkazových „kostek“ a každé spuštění programu pak provede připravenou sadu instrukcí. 
+                        
+                        Děti rychle pochopí principy tohoto nástroje a kromě toho, že se naučí kreativně používat počítač, osvojí si důležité strategie pro řešení problémů, navrhování projektů a vyjadřování myšlenek.  
+                    </p>
+                    <p>Ve Scratchi mohou děti snadno vytvářet vlastní animace, příběhy a hry. Naučí se kreativně myslet a spolupracovat při jejich tvorbě s ostatními kamarády. Právě učení prostřednictvím kreativní tvorby her a interaktivních animací děti vtáhne do děje a vyzkouší si nové přístupy a možnosti. </p>
+                    <p><b>Viz strana</b> <a href="pre-rodicovcz.html" class = "odkazy1" target="_blank"> Jak začít se Scratchem.</a></p>
+                </div>
+                <hr>
+                <img src = "./images/Scratch-kocur.png" class = pictureindexpostranka alt="scratch kocur"> 
+                <hr>
+            
+            <article class="featurecontainer">
+                <div class="contentcontainer">
+                    <h2>Jak učit děti Scratch</h2>
+                    <p>Existuje mnoho způsobů, jak děti naučit pracovat se Scratchem. Samozřejmě je možné přihlásit děti do kroužku Scratch nebo některé školy již zahájily výuku či kroužky tohoto programovacího nástroje. Další možností je pracovat s dětmi doma a strávit s nimi společný čas nad zajímavou lekcí. 
+
+                        Pro začátek doporučujeme přečíst si přehlednou příručku Začínáme se Scratchem.
+                        
+                        Abychom vám usnadnili začátky, připravili jsme pro vás také sadu startovních karet Scratch, které vám pomohou se základy. Samozřejmě, že později, až proniknete do tématu hlouběji, můžete pokračovat ve výuce prostřednictvím videonávodů nebo si stáhnout zdarma kompletní výukový program Scratch ve formátu pdf. 
+                        
+                        Přejeme vám mnoho příjemných chvil strávených společně s vašimi dětmi při řešení problémů a příběhů ve Scratchi. 
+                        
+                        Scratch najdete na adrese <a href="https://scratch.mit.edu/" class = "odkazy1" target="_blank"> https://scratch.mit.edu/ </a> </p>
+                </div>
+            </article>
+        </article>
+        </section>
+        <section class="facebook">
+            <a href="https://www.facebook.com/scratch.sk/" class = "odkazy" target="_blank">
+                <figure class="obrazok1">
+                    <img src="./images/jednadvatri.png" class = "facebook-logo" alt="facebook logo" target="_blank">
+                </figure>
+                <h1>Připojte se k nám<br> na facebooku!</h1> 
+                </a>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navlinks");
+            function showMenu(){
+                navLinks.style.right = "0px";
+    
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+                
+            }
+        </script>
+        
+        <hr>
+
+        <section class = "footer">
+            <p>© 2017-2024 Scratch.sk | Scratch je projektom skupiny Lifelong Kindergarten Group na MIT Media Lab.  
+             Slovenskú verziu pripravili a finančne podporili: Iveta Aldana, Jozef Šovčík a Martin Kaniansky. Cookies</p> 
+         
+            </section>
+    
+
+</body>
+
+

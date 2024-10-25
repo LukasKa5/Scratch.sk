@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/podstranka.css">
+    <link rel=" shortcut icon" type="image/png" href="favicon-16x16.png">
+</head>
+
+<body>
+    <section class="header" style= "background-image: linear-gradient(rgba(95, 98, 113, 0.7),rgba(30, 33, 46, 0.7)),url(./images/pozadiemale.png)">
+        <nav>
+            <a href="indexpl.html"><img class = "logo" src="./images/logo1.png" alt="logo"></img></a>
+            <div class="menu" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="indexpl.html">Strona główna</a></li>
+                        <li><a href="pre-rodicovpl.html"> Dla rodziców</a></li>
+                        <li><a href="pre-skolypl.html">Dla szkół</a></li>
+                        <li><a href="priruckapl.html">Podręcznik Scratch</a></li>
+                        <li><a href="kartickypl.html">Scratch karty</a></li>
+                        <li><a href="videopl.html">Scratch Video</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="features">
+            <article class="features">
+
+                <div class="contentcontainer">
+                    <h2>Scratch dla szkół i nauczycieli</h2>
+                    <p>Scratch to interaktywne narzędzie programistyczne, które rozwija kreatywność dzieci w tworzeniu programów i animacji. Dzieci mogą zanurzyć się w świecie wyobraźni, przygotowywać ciekawe animacje lub tworzyć wciągające gry w zespole.
+
+                        W ten sposób dzieci uczą się strategii rozwiązywania problemów, procedur i zasad projektowania projektów i wyrażania pomysłów w zabawny sposób. Scratch jest zatem doskonałym narzędziem, które można włączyć do programu nauczania lub założyć klub programowania dla dzieci w ich wolnym czasie w szkole. 
+                        
+                        Kilka szkół na Słowacji włączyło już Scratch do swojego programu nauczania lub oferuje popołudniowe kluby dla dzieci. Scratch jest udostępniany bezpłatnie i może być używany bez lub z połączeniem internetowym (usługa w chmurze) pod adresem<a href="https://scratch.mit.edu/" class = "odkazy1" target="_blank"> https://scratch.mit.edu/ </a>
+                    </p>
+                    <hr>
+                    <img src = "./images/scratch skola.png" class = pictureindexpostranka alt="ziaci v skole"> 
+                </div>
+                <hr>
+
+            <article class="featurecontainer">
+                <div class="contentcontainer">
+                    <h2>Materiały dla nauczycieli</h2>
+                    <p>Na tej stronie <a href="indexpl.html" class = "odkazy1">www.scratch.pl</a> można znaleźć w sekcji <a href="kartickypl.html"  target="_blank" class = "odkazy1">bezpłatnie Podstawowe karty Scratch
+                    </a> a także podstawowy przewodnik po Scratchu - przewodnik dla początkujących. Możesz również obejrzeć przygotowane samouczki wideo w sekcji samouczków wideo.  Przygotowaliśmy również obszerny materiał instruktażowy dla nauczycieli, którzy zdecydują się uczyć kreatywnego programowania w Scratchu w swojej szkole. Ten kompleksowy samouczek Scratch w formacie pdf można pobrać, używać i kopiować za darmo. Możesz pobrać Scratch <a href="priruckapl.html" class = "odkazy1" target="_blank">do pobrania za darmo w sekcji Podręcznik Scratch.</a></p>
+                    <p>Możliwe jest również korzystanie z ogromnej ilości materiałów dydaktycznych przygotowanych dla nauczycieli bezpośrednio przez twórców Scratch, MIT Media Lab. Materiały te dostępne są w języku angielskim pod adresem <a href="https://scratched.gse.harvard.edu/" class = "odkazy1" target="_blank"> scratched.gse.harvard.edu </a> </p>
+                </div>
+            </article>
+        </article>
+        </section>
+        <section class="facebook">
+            <a href="https://www.facebook.com/scratch.sk/" class = "odkazy" target="_blank">
+                <figure class="obrazok1">
+                    <img src="./images/jednadvatri.png" class = "facebook-logo" alt="facebook logo" target="_blank">
+                </figure>
+                <h1>Dołącz do nas<br> na facebooku!</h1> 
+                </a>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navlinks");
+            function showMenu(){
+                navLinks.style.right = "0px";
+    
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+                
+            }
+        </script>
+        
+        <hr>
+
+        <section class = "footer">
+            <p>© 2017-2024 Scratch.sk | Scratch je projektom skupiny Lifelong Kindergarten Group na MIT Media Lab.  
+             Slovenskú verziu pripravili a finančne podporili: Iveta Aldana, Jozef Šovčík a Martin Kaniansky. Cookies</p> 
+         
+            </section>
+    
+
+</body>
+
+
