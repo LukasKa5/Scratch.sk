@@ -193,7 +193,7 @@ hr{
     width: 100px;
     height: 100px;
     margin-left: -60%;
-    margin-bottom: -9%;
+    margin-bottom: -100px;
 }
 
 .footer{
@@ -237,7 +237,7 @@ hr{
     margin-left: 20px;
    }
 
-@media screen and (min-device-width: 700px) and (max-device-width: 1050px) {
+@media screen and (min-device-width: 700px) and (max-device-width: 1350px) {
 
     .features{
         width: 90%;
@@ -318,7 +318,7 @@ hr{
     .menu{
         position: absolute;
         background:orange;
-        height: 450px;
+        height: 120vh;
         width: 200px;
         top:0;
         right:0px;
@@ -357,12 +357,10 @@ hr{
 
     
     .facebook-logo{
-
         width: 100px;
         height: 100px;
-        margin-left: -450px;
-        margin-bottom: 0px;
-        margin-top: -10px;
+        margin-left: -250%;
+        margin-bottom: 15%;
     }
 
    hr {  width: 600px;
@@ -370,7 +368,7 @@ hr{
    .pictureindexpostranka{
     max-height: 500px;
     max-width: 700px;
-    margin-left: 00px;
+    margin-left: 0px;
     margin-right: auto;
     position: center;
 }
